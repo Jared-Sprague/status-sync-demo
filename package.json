@@ -1,0 +1,26 @@
+{
+  "name": "status-sync-demo",
+  "version": "1.0.0",
+  "description": "Demo of the status-sync engine for syncronizing New Relic Alerts to Statuspage.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jared-Sprague/status-sync-demo.git"
+  },
+  "keywords": [
+    "New_Relic",
+    "statuspage.io"
+  ],
+  "author": "Jared Sprague <jared@jaredsprague.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jared-Sprague/status-sync-demo/issues"
+  },
+  "homepage": "https://github.com/Jared-Sprague/status-sync-demo#readme",
+  "dependencies": {
+    "statuspage-controller": "^1.0.0"
+  }
+}
