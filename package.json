@@ -1,9 +1,10 @@
 {
   "name": "status-sync-demo",
   "version": "1.0.0",
-  "description": "Demo of the status-sync engine for syncronizing New Relic Alerts to Statuspage.io",
+  "description": "Demo of the statuspage-controller engine for syncronizing New Relic Alerts to Statuspage.io",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/Jared-Sprague/status-sync-demo#readme",
   "dependencies": {
-    "statuspage-controller": "^1.0.0"
+    "statuspage-controller": "^1.1.4",
+    "statuspage-controller-irc": "^1.0.3"
   }
 }
